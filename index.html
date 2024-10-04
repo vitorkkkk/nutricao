@@ -2,18 +2,19 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<title>Aparecida Nutrição</title>
+		<title>Joao Nutrição</title>
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 
+		
 
 	</head>
 	<body>
 
 		<header>
 			<div class="container">
-				<h1 class="titulo">Aparecida Nutrição</h1>
+				<h1 class="titulo">Joao Nutrição</h1>
 			</div>
 		</header>
 		<main>
@@ -27,13 +28,12 @@
 							<th>Altura(m)</th>
 							<th>Gordura Corporal(%)</th>
 							<th>IMC</th>
-Nome
 						</tr>
 					</thead>
 					<tbody id="tabela-pacientes">
 						<tr class="paciente" id="primeiro-paciente">
 							<td class="info-nome">Paulo</td>
-							<td class="info-peso">100</td>
+							<td class="info-peso">1000</td>
 							<td class="info-altura">2.00</td>
 							<td class="info-gordura">10</td>
 							<td class="info-imc">0</td>
@@ -50,7 +50,7 @@ Nome
 						<tr class="paciente" >
 							<td class="info-nome">Erica</td>
 							<td class="info-peso">54</td>
-							<td class="info-altura">1.64</td>
+							<td class="info-altura">11.64</td>
 							<td class="info-gordura">14</td>
 							<td class="info-imc">0</td>
 						</tr>
@@ -74,8 +74,11 @@ Nome
 
 			</section>
 		</main>
-    <script src="main.js">
 
-    </script>
+		<script src="main.js">
+		var titulo = document.querySelector("h2");
+			titulo.textContent = "Meus Pacientes";
+		</script>
+		
 	</body>
 </html>
